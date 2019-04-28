@@ -592,3 +592,46 @@ https://github.com/attackercan/regexp-security-cheatsheet
       Используют ли они движок шаблонов, таких как Jinja2 или Smarty?
       Отображает ли функция страницы что-то для пользователей? (XSS, Spoofing для содержимого и т.д.) 
 ```
+
+Инструменты
+
+```
+Wappalyzer 
+https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ru
+
+Validators, generators and converters 
+https://mothereff.in/
+
+Arjun (find get post)
+https://github.com/s0md3v/Arjun
+
+SqlMap
+http://sqlmap.org/
+https://github.com/sqlmapproject/sqlmap
+
+Запуск
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+
+cd sqlmap-dev/
+python sqlmap.py -h
+
+w3af
+http://docs.w3af.org/en/latest/install.html#installing-using-docker
+
+Запуск через докер
+git clone https://github.com/andresriancho/w3af.git
+cd w3af/extras/docker/scripts/
+sudo ./w3af_console_docker
+
+recon-ng
+https://bitbucket.org/LaNMaSteR53/recon-ng
+
+Запуск
+git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git
+cd recon-ng
+pip install -r REQUIREMENTS
+./recon-ng
+
+
+
+```
