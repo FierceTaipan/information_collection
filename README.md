@@ -596,6 +596,9 @@ https://github.com/attackercan/regexp-security-cheatsheet
 Инструменты
 
 ```
+virtualenv -p python3 env
+virtualenv venv
+
 Wappalyzer 
 https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ru
 
@@ -604,6 +607,34 @@ https://mothereff.in/
 
 Arjun (find get post)
 https://github.com/s0md3v/Arjun
+
+THC-Hydra
+https://github.com/vanhauser-thc/thc-hydra
+
+Striker - vulnerability scanner
+https://github.com/s0md3v/Striker
+
+Запуск
+git clone https://github.com/UltimateHackers/Striker
+cd Striker
+pip install -r requirements.txt
+python striker.py
+
+Photon - vulnerability scanner
+https://github.com/s0md3v/Photon
+
+Запуск
+git clone https://github.com/s0md3v/photon.git
+cd Photon
+python3 -m pip install -r requirements.txt
+python3 photon.py -u "https://www.target.com/" -l 1 -t 10 -o results --dns
+
+wapiti3 - vulnerability scanner
+http://wapiti.sourceforge.net/
+pip install wapiti3
+
+Dig
+https://toolbox.googleapps.com/apps/dig/ (CNAME)
 
 SqlMap
 http://sqlmap.org/
@@ -632,6 +663,31 @@ cd recon-ng
 pip install -r REQUIREMENTS
 ./recon-ng
 
+Sublist3r (Subdomain)
+https://github.com/aboul3la/Sublist3r
 
+Запуск
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+sudo pip install -r requirements.txt
+python sublist3r.py -d target.com
 
+Subbrute (Subdomain)
+git clone https://github.com/TheRook/subbrute
+cd subbrute
+
+Запуск
+./subbrute.py google.com
+
+Subdomain-takeover (list)
+git clone https://github.com/antichown/subdomain-takeover
+
+Запуск
+python takeover.py -d target.com -w sublist.txt -t 20
+-d => domain 
+-w => wordlist 
+-t => thread 
+
+aircrack wifi
+https://www.aircrack-ng.org/
 ```
