@@ -620,6 +620,13 @@ cd Striker
 pip install -r requirements.txt
 python striker.py
 
+XSStrike
+git clone https://github.com/s0md3v/XSStrike
+cd XSStrike
+pip install -r requirements.txt
+python3 xsstrike.py
+
+
 Photon - vulnerability scanner
 https://github.com/s0md3v/Photon
 
