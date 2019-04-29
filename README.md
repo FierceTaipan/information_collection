@@ -626,6 +626,11 @@ cd XSStrike
 pip install -r requirements.txt
 python3 xsstrike.py
 
+Xsscrapy
+git clone https://github.com/DanMcInerney/xsscrapy
+cd xsscrapy
+pip install -r requirements.txt
+./xsscrapy.py -u http://target.com
 
 Photon - vulnerability scanner
 https://github.com/s0md3v/Photon
