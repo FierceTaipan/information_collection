@@ -605,6 +605,9 @@ https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfb
 Validators, generators and converters 
 https://mothereff.in/
 
+Charref
+https://dev.w3.org/html5/html-author/charref
+
 Arjun (find get post)
 https://github.com/s0md3v/Arjun
 
@@ -626,6 +629,16 @@ cd XSStrike
 pip install -r requirements.txt
 python3 xsstrike.py
 
+Xsser
+https://github.com/epsylon/xsser
+
+Запуск
+git clone https://github.com/epsylon/xsser
+cd xsser
+python setup.py install
+./xsser -h
+./xsser --gtk (for gui)
+
 Xsscrapy
 git clone https://github.com/DanMcInerney/xsscrapy
 cd xsscrapy
@@ -643,7 +656,11 @@ python3 photon.py -u "https://www.target.com/" -l 1 -t 10 -o results --dns
 
 wapiti3 - vulnerability scanner
 http://wapiti.sourceforge.net/
+http://wapiti.sourceforge.net/wapiti.1.html
 pip install wapiti3
+
+Запуск
+wapiti -u https://target/
 
 Dig
 https://toolbox.googleapps.com/apps/dig/ (CNAME)
@@ -667,10 +684,10 @@ cd w3af/extras/docker/scripts/
 sudo ./w3af_console_docker
 
 recon-ng
-https://bitbucket.org/LaNMaSteR53/recon-ng
+https://github.com/lanmaster53/recon-ng.git
 
 Запуск
-git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git
+git clone https://github.com/lanmaster53/recon-ng.git
 cd recon-ng
 pip install -r REQUIREMENTS
 ./recon-ng
@@ -700,6 +717,43 @@ python takeover.py -d target.com -w sublist.txt -t 20
 -w => wordlist 
 -t => thread 
 
+Nikto
+https://github.com/sullo/nikto.git
+
+Запуск
+git clone https://github.com/sullo/nikto.git
+cd nikto
+docker build -t sullo/nikto .
+# Call it without arguments to display the full help
+docker run --rm sullo/nikto
+# Basic usage
+docker run --rm sullo/nikto -h http://www.example.com
+# To save the report in a specific format, mount /tmp as a volume:
+docker run --rm -v $(pwd):/tmp sullo/nikto -h http://www.example.com -o /tmp/out.json
+
 aircrack wifi
 https://www.aircrack-ng.org/
+
+metasploit
+https://www.metasploit.com/
+http://www.exploit-db.com
+https://www.cvedetails.com/
+
+nmap
+brew install nmap
+sudo apt install nmap
+
+nmap --help
+nmap --top-ports 1000 -T4 -sC https://target.com
+
+wireshark
+https://www.wireshark.org/
+
+Maltego
+https://www.paterva.com/downloads.php
+
+ZAP (OWASP)
+https://github.com/zaproxy/zaproxy/wiki/Downloads
+https://github.com/zaproxy/zaproxy/wiki/Docker
+
 ```
