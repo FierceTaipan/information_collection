@@ -756,4 +756,13 @@ ZAP (OWASP)
 https://github.com/zaproxy/zaproxy/wiki/Downloads
 https://github.com/zaproxy/zaproxy/wiki/Docker
 
+dirsearch
+https://github.com/Bo0oM/dirsearch.git
+
+Запуск
+python3 dirsearch.py -h
+
+fuzz.txt
+https://github.com/Bo0oM/fuzz.txt
+
 ```
