@@ -24,6 +24,9 @@ host -t A fbs.com
 
 Сервис для получения всех ip адресов, принадлежащих одному хосту, доменному имени или сайту.
 https://ciox.ru/get_all_ip_address_of_host
+
+IP range Crawl
+https://bgp.he.net/
 ```
 ```
 2. Whois. После того, как мы узнали IP адрес домена, воспользуемся сервисом whois, чтобы узнать немного дополнительной информации.
@@ -93,6 +96,7 @@ dig -t AXFR target.com @ns.target.com
 http://sergeybelove.ru/tools/axfr-test/?domain=
 https://www.ultratools.com/tools/dnsLookupResult
 http://hackertarget.com/zone-transfer/
+https://viewdns.info/
 
 В случае успеха, мы получаем все DNS-записи: axrf
 
@@ -599,19 +603,32 @@ https://github.com/attackercan/regexp-security-cheatsheet
 virtualenv -p python3 env
 virtualenv venv
 
-Wappalyzer 
+Wappalyzer *
 https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ru
 
-Validators, generators and converters 
+Validators, generators and converters *
 https://mothereff.in/
 
-Charref
+Charref *
 https://dev.w3.org/html5/html-author/charref
+
+Knockpy *
+https://github.com/guelfoweb/knock
+
+Запуск
+git clone https://github.com/guelfoweb/knock.git
+cd knock
+Set your virustotal API_KEY:
+vim knockpy/config.json
+sudo python setup.py install
+
+knockpy domain.com -w wordlist.txt - Subdomain scan with external wordlist
+knockpy -c domain.com - Save scan output in CSV
 
 Arjun (find get post)
 https://github.com/s0md3v/Arjun
 
-THC-Hydra
+THC-Hydra *
 https://github.com/vanhauser-thc/thc-hydra
 
 Striker - vulnerability scanner
@@ -665,7 +682,7 @@ wapiti -u https://target/
 Dig
 https://toolbox.googleapps.com/apps/dig/ (CNAME)
 
-SqlMap
+SqlMap *
 http://sqlmap.org/
 https://github.com/sqlmapproject/sqlmap
 
@@ -675,7 +692,7 @@ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd sqlmap-dev/
 python sqlmap.py -h
 
-w3af
+w3af *
 http://docs.w3af.org/en/latest/install.html#installing-using-docker
 
 Запуск через докер
@@ -692,7 +709,7 @@ cd recon-ng
 pip install -r REQUIREMENTS
 ./recon-ng
 
-Sublist3r (Subdomain)
+Sublist3r (Subdomain) *
 https://github.com/aboul3la/Sublist3r
 
 Запуск
@@ -707,6 +724,28 @@ cd subbrute
 
 Запуск
 ./subbrute.py google.com
+
+Subfinder
+https://github.com/subfinder/subfinder
+
+Запуск
+go get -u github.com/subfinder/subfinder
+./subfinder -d freelancer.com -o output.txt
+
+Censys-subdomain-finder
+https://github.com/christophetd/censys-subdomain-finder
+
+Запуск
+git clone https://github.com/christophetd/censys-subdomain-finder.git
+cd censys-subdomain-finder
+pip install -r requirements.txt
+python censys_subdomain_finder.py example.com
+
+Gobuster
+https://github.com/OJ/gobuster
+
+Запуск
+go get github.com/OJ/gobuster
 
 Subdomain-takeover (list)
 git clone https://github.com/antichown/subdomain-takeover
@@ -739,7 +778,7 @@ https://www.metasploit.com/
 http://www.exploit-db.com
 https://www.cvedetails.com/
 
-nmap
+nmap *
 brew install nmap
 sudo apt install nmap
 
