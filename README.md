@@ -730,7 +730,7 @@ https://github.com/subfinder/subfinder
 
 Запуск
 go get -u github.com/subfinder/subfinder
-./subfinder -d freelancer.com -o output.txt
+./subfinder -d target.com -o output.txt
 
 Censys-subdomain-finder
 https://github.com/christophetd/censys-subdomain-finder
@@ -795,11 +795,15 @@ ZAP (OWASP)
 https://github.com/zaproxy/zaproxy/wiki/Downloads
 https://github.com/zaproxy/zaproxy/wiki/Docker
 
-dirsearch
+dirsearch *
 https://github.com/Bo0oM/dirsearch.git
 
 Запуск
 python3 dirsearch.py -h
+./dirsearch.py -u target.com -e *
+
+Gobuster
+https://github.com/OJ/gobuster
 
 fuzz.txt
 https://github.com/Bo0oM/fuzz.txt
