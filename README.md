@@ -97,6 +97,7 @@ http://sergeybelove.ru/tools/axfr-test/?domain=
 https://www.ultratools.com/tools/dnsLookupResult
 http://hackertarget.com/zone-transfer/
 https://viewdns.info/
+https://dnstable.com
 
 В случае успеха, мы получаем все DNS-записи: axrf
 
