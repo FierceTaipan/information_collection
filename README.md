@@ -810,3 +810,12 @@ fuzz.txt
 https://github.com/Bo0oM/fuzz.txt
 
 ```
+
+```
+Deploying a private Burp Collaborator server
+https://portswigger.net/burp/documentation/collaborator/deploying
+
+Awesome-burp-extensions
+https://github.com/snoopysecurity/awesome-burp-extensions
+
+```
