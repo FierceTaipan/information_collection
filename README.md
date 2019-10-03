@@ -792,7 +792,7 @@ https://www.wireshark.org/
 Maltego
 https://www.paterva.com/downloads.php
 
-ZAP (OWASP)
+ZAP (OWASP) *
 https://github.com/zaproxy/zaproxy/wiki/Downloads
 https://github.com/zaproxy/zaproxy/wiki/Docker
 
