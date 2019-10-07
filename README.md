@@ -811,6 +811,12 @@ https://github.com/OJ/gobuster
 fuzz.txt
 https://github.com/Bo0oM/fuzz.txt
 
+Shodan
+https://www.shodan.io/
+
+Censys
+https://censys.io/
+
 ```
 
 ```
