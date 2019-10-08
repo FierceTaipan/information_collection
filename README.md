@@ -643,7 +643,7 @@ cd Striker
 pip install -r requirements.txt
 python striker.py
 
-XSStrike
+XSStrike *
 git clone https://github.com/s0md3v/XSStrike
 cd XSStrike
 pip install -r requirements.txt
@@ -658,6 +658,9 @@ cd xsser
 python setup.py install
 ./xsser -h
 ./xsser --gtk (for gui)
+
+Xssor *
+http://xssor.io/
 
 Xsscrapy
 git clone https://github.com/DanMcInerney/xsscrapy
@@ -682,7 +685,7 @@ pip install wapiti3
 Запуск
 wapiti -u https://target/
 
-Dig
+Dig *
 https://toolbox.googleapps.com/apps/dig/ (CNAME)
 
 SqlMap *
