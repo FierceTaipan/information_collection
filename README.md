@@ -20,7 +20,7 @@ ping target.com
 Вполне может быть, что у ресурса IP не один, а сразу несколько
 
 Узнать IP адрес сайта
-host -t A fbs.com
+host -t A example.com
 
 Сервис для получения всех ip адресов, принадлежащих одному хосту, доменному имени или сайту.
 https://ciox.ru/get_all_ip_address_of_host
